@@ -1,0 +1,22 @@
+p {
+  border: black solid 1px;
+  outline: none;
+  width: 500px;
+  height: 400px;
+}
+
+article {
+  height: fit-content;
+  width: fit-content;
+  padding: 8px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.invert {
+  background-color: black;
+  color: white;
+  caret-color: white;
+}

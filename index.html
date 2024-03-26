@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Dongle&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>articles editor</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <select name="" id="fonts">
+          <option value="">choose font</option>
+          <option value="Ubuntu">Ubuntu</option>
+          <option value="Cairo">Cairo</option>
+          <option value="Dongle">Dongle</option>
+        </select>
+        <button class="bold-btn"><strong>B</strong></button>
+        <button class="subtract">-</button>
+        <span id="font-size">16</span>
+        <button class="add">+</button>
+        <button class="invert-btn">invert colors</button>
+      </nav>
+      <article>
+        <p contenteditable="true"></p>
+      </article>
+      <button class="save">save</button>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
