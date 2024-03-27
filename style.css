@@ -1,8 +1,19 @@
+main {
+  display: grid;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 p {
   border: black solid 1px;
   outline: none;
   width: 500px;
   height: 400px;
+  border-radius: 12px;
 }
 
 article {
@@ -19,4 +30,21 @@ article {
   background-color: black;
   color: white;
   caret-color: white;
+}
+
+.save {
+  justify-self: center;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  transition-duration: 250ms;
+}
+
+.save:hover {
+  background-color: darkblue;
 }
